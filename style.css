@@ -40,8 +40,55 @@ footer {
     background: #f4f4f4;
 }
 
+#intro {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+
 #photos img {
     width: 100%; /* 或者其他尺寸 */
     height: auto;
     padding: 10px;
+}
+
+.photo-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 15px;
+    padding: 15px;
+}
+
+.photo-gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* 如果你想要圆角照片 */
+}
+
+#photo-stories {
+    padding: 20px;
+    background-color: #fff;
+    color: #333;
+}
+
+#photo-stories article {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+}
+
+#blog-archive, #story-collection {
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#blog-archive ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#blog-archive li {
+    margin-bottom: 10px;
 }
