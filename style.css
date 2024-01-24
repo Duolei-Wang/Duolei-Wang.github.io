@@ -39,3 +39,9 @@ footer {
     text-align: center;
     background: #f4f4f4;
 }
+
+#photos img {
+    width: 100%; /* 或者其他尺寸 */
+    height: auto;
+    padding: 10px;
+}
